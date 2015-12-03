@@ -1,0 +1,94 @@
+html,
+body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.g-hidden
+{
+    display: none!important;
+}
+
+.data_false
+{
+    fill: #0097dc;
+}
+
+.data_true
+{
+    fill: #d88329;
+}
+
+.map
+{
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+
+.map__overlay
+{
+    position: absolute;
+    z-index: 200;
+    top: -4000px;
+    left: -4000px;
+    width: 8000px;
+    height: 8000px;
+}
+
+.filter
+{
+    position: absolute;
+    z-index: 300;
+    top: 5%;
+    right: 2%;
+    width: 30%;
+    height: 30%;
+}
+
+.filter__svg
+{
+    overflow: visible;
+    width: calc(100% - 180px);
+    height: 100%;
+    padding: 0 90px;
+    border: black 1px solid;
+    background-color: rgba(128,128,128,0.5);
+}
+
+.filter_line
+{
+    stroke: #000;
+    stroke-width: 3;
+}
+
+.filter__brush .extent
+{
+    fill: transparent;
+    stroke: black;
+    stroke-width: 1;
+}
+
+.filter__extent-cap
+{
+    fill: #808080;
+    fill-opacity: 0.5;
+}
+
+.filter__text
+{
+    font-size: 1.4em;
+    fill: #000;
+}
+
+.filter__text_count
+{
+    stroke: #000;
+}
+
+.filter__text_limit
+{
+    font-size: 1em;
+}
